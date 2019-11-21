@@ -12,6 +12,7 @@
             "weibo": null
         },
         "sidebar": {
+            "我的GitHub": "https://github.com/apestalk",
             "我的简书": "http://www.jianshu.com/users/4f2d3d978842"
         }
     },
@@ -29,7 +30,48 @@
         "pageNumbers": false,
         "paperSize": "a4"
     },
-    "plugins": [],
+    "plugins": [
+        "theme-comscore",
+        "copy-code-button",
+        "search-pro",
+        "-search",
+        "-lunr",
+        "expandable-chapters",
+        "-sharing",
+        "github-buttons",
+        "tbfed-pagefooter",
+        "anchor-navigation-ex"
+    ],
+    "pluginsConfig": {
+        "github-buttons": {
+            "buttons": [
+                {
+                    "user": "ApesTalk",
+                    "repo": "KnowledgeTree",
+                    "type": "star",
+                    "count": true,
+                    "size": "small"
+                },
+                {
+                    "user": "ApesTalk",
+                    "width": "160",
+                    "type": "follow",
+                    "count": true,
+                    "size": "small"
+                }
+            ]
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy https://github.com/apestalk 2019",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "pluginsConfig": {
+            "anchor-navigation-ex": {
+                "showLevel": false
+            }
+        }
+    },
     "title": "Knowledge tree GitBook",
     "variables": {}
 }

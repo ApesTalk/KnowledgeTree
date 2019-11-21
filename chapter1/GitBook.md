@@ -13,5 +13,8 @@ gitbook serve
 ```
 ``gitbook serve`` 命令实际上会首先调用 ``gitbook build`` 编译书籍，完成以后会打开一个 web 服务器，监听在本地的 4000 端口。编译后就可以用 ``http://127.0.0.1:4000/`` 预览效果了。
 
-参考：[GitBook 简明教程](http://www.chengweiyang.cn/)
+参考：
+
+- [GitBook 简明教程](http://www.chengweiyang.cn/)
+- [GitBook搭建](https://liangjunrong.github.io/other-library/Markdown-Websites/GitBook/GitBook-study.html)
 
