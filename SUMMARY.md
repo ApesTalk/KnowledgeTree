@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [GitBook常用操作](chapter1/GitBook.md)
-* [Chapter2](chapter2/README.md)
-    * [Section2.1](chapter2/section1.1.md)
+* [iOS相关](chapter2/iOS.md)
+    * [CocoaPods](chapter2/cocoapods.md)
     * [Section2.2](chapter2/section1.2.md)
 

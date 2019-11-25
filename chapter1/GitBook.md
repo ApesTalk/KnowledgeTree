@@ -13,6 +13,9 @@ gitbook serve
 ```
 ``gitbook serve`` 命令实际上会首先调用 ``gitbook build`` 编译书籍，完成以后会打开一个 web 服务器，监听在本地的 4000 端口。编译后就可以用 ``http://127.0.0.1:4000/`` 预览效果了。
 
+- 安装插件后本地预览效果正常，但是提交到GitHub后却没任何插件的效果？
+这是因为插件安装后需要编译才有效果，得有
+
 参考：
 
 - [GitBook 简明教程](http://www.chengweiyang.cn/)
